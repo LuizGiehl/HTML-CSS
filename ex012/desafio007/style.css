@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(27, 24, 24);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: white;
+    background-color: brown;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.434) 5px 5px;
+}
+
+p{
+    text-align: center;
+    
+    
+}
