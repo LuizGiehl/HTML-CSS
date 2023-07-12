@@ -5,7 +5,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
-
+:root{
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2: 'Passion One', cursive;
+    --font3: 'Sriracha', cursive;
+}
 
 *{
     margin: 0px;
@@ -16,6 +20,7 @@
 html,body{
     min-height: 100vh;
     background-color: lightgray;
+    font-family: var(--font1);
 }
 
 header{
@@ -26,8 +31,9 @@ header{
 
 header>h1{
     padding-top: 50px;
-    font-size: 4em;
+    font-size: 8.5vmax;
     font-variant: small-caps;
+    font-family: var(--font2);
 }
 
 header>p{
@@ -49,11 +55,12 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-size: 4.5vmin;
+    font-family: var(--font3);
 }
 
 section>p{
-    font-size: 2em;
-    padding-bottom: 20px;
+    padding-bottom: 3em;
 }
 
 section.normal{
