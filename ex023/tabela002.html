@@ -12,6 +12,7 @@
         table{
             width: 400px;
             border-collapse: collapse;
+            position: relative;
         }
 
         caption{
@@ -23,8 +24,14 @@
         }
 
         thead, tfoot{
-            background-color: gray;
+            background-color: rgb(63, 60, 60);
             color: white;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: rgb(63, 60, 60);
         }
 
         tbody > tr:nth-child(odd){
