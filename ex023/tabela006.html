@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Responsivas</title>
+    <style>
+        table{
+            background-color: white;
+            border-radius: 10px 10px 10px 10px;
+            padding: 1px;
+            width: 600px;
+            text-align: center;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        td, th{
+            border: 2px solid black;
+            padding: 10px;
+            height: 20px;
+        }
+
+        caption{
+            background-color: lightgray;
+            padding: 15px;
+            font-size: 2em;
+            font-weight: bolder;
+            border-radius: 10px 10px 0px 0px;
+        }
+
+        div.container{
+            overflow: auto;
+        }
+
+        .mes{
+            background-color: rgb(167, 226, 226);
+        }
+
+        .produto{
+            background-color: rgb(83, 128, 128);
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas em telas Pequenas</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio labore distinctio harum nostrum eius provident dolorum repellendus modi, nam quibusdam enim fuga repellat inventore excepturi molestias neque quae quis veritatis.</p>
+
+    <div class="container">
+        <table>
+            <colgroup>
+                <col class="produto">
+                <col class="mes" span="12">
+            </colgroup>
+            <tr>
+              <th>Produto</th>
+              <th>Janeiro</th>
+              <th>Fevereiro</th>
+              <th>Março</th>
+              <th>Abril</th>
+              <th>Maio</th>
+              <th>Junho</th>
+              <th>Julho</th>
+              <th>Agosto</th>
+              <th>Setembro</th>
+              <th>Outubro</th>
+              <th>Novembro</th>
+              <th>Dezembro</th>
+            </tr>
+            <tr>
+              <th>Produto A</th>
+              <td>100</td>
+              <td>120</td>
+              <td>150</td>
+              <td>130</td>
+              <td>140</td>
+              <td>160</td>
+              <td>110</td>
+              <td>120</td>
+              <td>140</td>
+              <td>130</td>
+              <td>110</td>
+              <td>90</td>
+            </tr>
+            <tr>
+              <th>Produto B</th>
+              <td>80</td>
+              <td>90</td>
+              <td>100</td>
+              <td>110</td>
+              <td>120</td>
+              <td>130</td>
+              <td>100</td>
+              <td>90</td>
+              <td>100</td>
+              <td>90</td>
+              <td>80</td>
+              <td>70</td>
+            </tr>
+            <tr>
+              <th>Produto C</th>
+              <td>50</td>
+              <td>60</td>
+              <td>70</td>
+              <td>80</td>
+              <td>90</td>
+              <td>100</td>
+              <td>70</td>
+              <td>80</td>
+              <td>90</td>
+              <td>80</td>
+              <td>70</td>
+              <td>60</td>
+            </tr>
+    </div>
+</body>
+</html>
